@@ -13,14 +13,15 @@ function ModalAudio({setShowModal,musicRef}) {
     }
   return (
     <>
-      <section>
-        <img src={flores} />
+    <div className='container-modal'>
+      <section className='modal-initial'>
         <h1>Deseja entrar</h1>
         <div className='buttons'>
-        <button onClick={()=> playMsuic(true)}>Com musica</button>
-        <button onClick={()=> playMsuic(false)}>Sem musica</button>
+        <button onClick={()=> playMsuic(true)}>Com música</button>
+        <button onClick={()=> playMsuic(false)}>Sem música</button>
         </div>
       </section>
+      </div>
     </>
   )
 }

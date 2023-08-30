@@ -26,8 +26,7 @@ function InvitePage() {
   return (
     <>
     <div className='container'>
-      {showModal ? <ModalAudio setShowModal={setShowModal} musicRef={musicRef} /> 
-      :
+      {showModal && <ModalAudio setShowModal={setShowModal} musicRef={musicRef} />}
       <section>
             <img onClick={() => StopOrPlayMusic()} className='music-icon' src={musicaIcon} />
             <img className="flores" src={flores} />
@@ -54,7 +53,6 @@ function InvitePage() {
               
             </div>
         </section>
-        }
         <audio ref={musicRef} loop={true} />
       </div>
     </>
