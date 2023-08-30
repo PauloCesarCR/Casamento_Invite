@@ -35,10 +35,19 @@ section {
 }
 .infos-container {
     display: flex;
+    flex-direction: column;
     margin-top: 15px;
+    gap: 15px;
 }
-
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.icons img:hover {
+    opacity: 0.8;
+}
 .infos-container img {
-    width: 100px;
+    width: 70px;
     cursor: pointer;
 }
