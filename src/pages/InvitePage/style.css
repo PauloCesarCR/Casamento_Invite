@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+
+.music-icon {
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flores {
+    width: 80%;
+}
+.versiculo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(103, 27, 27);
+}
+.img-noivos {
+    width: 75%;
+}
