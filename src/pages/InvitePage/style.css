@@ -26,3 +26,19 @@ section {
 .img-noivos {
     width: 75%;
 }
+
+.invite-h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(137, 68, 19);
+    font-size: 16px;
+}
+.infos-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.infos-container img {
+    width: 100px;
+    cursor: pointer;
+}
