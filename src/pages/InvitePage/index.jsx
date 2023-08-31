@@ -27,7 +27,7 @@ function InvitePage() {
   }
   return (
     <>
-    <div className='container'>
+    <div className="container">
       {showModal && <ModalAudio setShowModal={setShowModal} musicRef={musicRef} />}
       <section>
             <img onClick={() => StopOrPlayMusic()} className='music-icon' src={musicaIcon} />
