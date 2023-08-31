@@ -23,16 +23,19 @@ section {
     align-items: center;
 }
 .flores {
-    width: 80%;
+    width: 90%;
+    margin-bottom: 15px;
 }
 .versiculo {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 13px;
     color: rgb(103, 27, 27);
+    margin-bottom: 15px;
 }
 .img-noivos {
     width: 75%;
+    margin-bottom: 15px;
 }
 
 .invite-h3 {
@@ -40,6 +43,7 @@ section {
     text-align: center;
     color: rgb(137, 68, 19);
     font-size: 16px;
+    margin-bottom: 15px;
 }
 .infos-container {
     display: flex;
