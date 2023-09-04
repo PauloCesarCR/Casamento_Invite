@@ -9,7 +9,8 @@ import cerimoniaImg from '../../assets/igreja.png'
 import recepcaoImg from '../../assets/recepcao.png'
 import confirmacaoImg from '../../assets/confirmacao.png'
 import Mapa from '../../components/Mapa'
-
+import flores2 from '../../assets/flores2.png'
+import MensagensModal from '../../components/MensagensModal'
 function InvitePage() {
   const musicRef = useRef(null)
   const [showModal, setShowModal] = useState(true)
@@ -32,11 +33,13 @@ function InvitePage() {
       <section>
             <img onClick={() => StopOrPlayMusic()} className='music-icon' src={musicaIcon} />
             <img className="flores" src={flores} />
-            <h3 className='versiculo'>Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres.<br/>(Salmos 126:3)</h3>
-            <img className='img-noivos' src={pvENoivaImg} />
-            <h3 className='invite-h3'>CONVIDAM PARA CELEBRAR O SEU CASAMENTO</h3>
-            <span></span>
-            <span></span>
+            <div className='infos-casamento'>
+              <h3 className='versiculo'>Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres.<br/>(Salmos 126:3)</h3>
+              <img className='img-noivos' src={pvENoivaImg} />
+              <h3 className='invite-h3'>CONVIDAM PARA CELEBRAR O SEU CASAMENTO</h3>
+              <span></span>
+              <span></span>
+            </div>
 
             <div className='infos-container'>
               <div className='icons'>
