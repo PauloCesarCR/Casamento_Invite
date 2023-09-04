@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
 
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
 
+    position: relative;
 }
 .music-icon {
     width: 20px;
     cursor: pointer;
     position: absolute;
-    top:25px;
-    right: 25px;
+    top:15px;
+    right: 15px;
 }
 
-section {
+section, .infos-casamento {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .flores {
-    width: 90%;
-    margin-bottom: 15px;
+    width: 80%;
+    position: relative;
 }
 .versiculo {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
+    margin: 0px 30px;
     color: rgb(103, 27, 27);
     margin-bottom: 15px;
 }
@@ -50,6 +51,7 @@ section {
     flex-direction: column;
     margin-top: 15px;
     gap: 15px;
+    margin-bottom: 30px;
 }
 .icons {
     display: flex;
@@ -62,4 +64,62 @@ section {
 .infos-container img {
     width: 70px;
     cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+
+    .music-icon {
+        width: 30px;
+        cursor: pointer;
+        position: absolute;
+        top:35px;
+        right: 35px;
+    }
+
+    .flores {
+        width:50%;
+        position: relative;
+
+    }
+    .versiculo {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 21px;
+        color: rgb(103, 27, 27);
+        margin-bottom: 15px;
+    }
+    .img-noivos {
+        width:500px;
+        margin-bottom: 15px;
+    }
+    
+    .invite-h3 {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: rgb(137, 68, 19);
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .infos-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .icons img:hover {
+        opacity: 0.8;
+    }
+    .infos-container img {
+        width: 70px;
+        cursor: pointer;
+    }
+
+    .flores2 {
+        position: absolute;
+        bottom: -10px;
+        left: -10px;
+
+        width: 10%;
+    }
 }

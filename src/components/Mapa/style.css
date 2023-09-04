@@ -3,3 +3,11 @@
     border: 3px solid rgb(141, 80, 27);
 
 }
+@media screen and (min-width: 800px) {
+    .mapa {
+        margin: 0;
+        border: 3px solid rgb(141, 80, 27);
+        width: 700px;
+        height: 300px;
+    }
+}

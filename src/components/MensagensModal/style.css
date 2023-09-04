@@ -1,0 +1,19 @@
+.messages-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    margin-top: 30px;
+
+    color: rgb(103, 27, 27);
+    padding: 20px;
+}
+.messages-modal h1 {
+    font-size: 18px;
+}
+.messages-modal input, textarea {
+    width: 200px;
+    border: 1px solid rgb(157, 60, 60);;
+}
