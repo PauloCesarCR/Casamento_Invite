@@ -22,6 +22,9 @@ section, .infos-casamento {
     justify-content: center;
     align-items: center;
 }
+.infos-casamento {
+    gap: 10px;
+}
 .flores {
     width: 80%;
     position: relative;
@@ -32,11 +35,9 @@ section, .infos-casamento {
     font-size: 15px;
     margin: 0px 30px;
     color: rgb(103, 27, 27);
-    margin-bottom: 15px;
 }
 .img-noivos {
     width: 75%;
-    margin-bottom: 15px;
 }
 
 .invite-h3 {
