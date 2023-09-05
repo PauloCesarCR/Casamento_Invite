@@ -65,6 +65,10 @@ section, .infos-casamento {
     width: 70px;
     cursor: pointer;
 }
+
+.opacityModal {
+    opacity: 0.7;
+}
 @media screen and (min-width: 800px) {
 
     .music-icon {

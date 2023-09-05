@@ -32,7 +32,7 @@ function InvitePage() {
       {showModal && <ModalAudio setShowModal={setShowModal} musicRef={musicRef} />}
       <section>
             <img onClick={() => StopOrPlayMusic()} className='music-icon' src={musicaIcon} />
-            <img className="flores" src={flores} />
+            <img className={`flores ${showModal && "opacityModal"}`} src={flores} />
             <div className='infos-casamento'>
               <h3 className='versiculo'>Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres.<br/>(Salmos 126:3)</h3>
               <img className='img-noivos' src={pvENoivaImg} />
