@@ -16,8 +16,18 @@
 @media screen and (min-width: 800px) {
     .mapa {
         margin: 0;
-        border: 3px solid rgb(141, 80, 27);
+        border: 5px solid  #d89e69;
         width: 700px;
         height: 300px;
+        margin-top: 15px;
+    }
+
+    .seta {
+        position: absolute;
+        left: 270px;
+        top: -17px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 17px solid  #d89e69
     }
 }
