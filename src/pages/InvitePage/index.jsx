@@ -10,9 +10,9 @@ import confirmacaoImg from '../../assets/confirmacao.png'
 import Mapa from '../../components/Mapa'
 import { useNavigate } from 'react-router-dom'
 import Cronometro from '../../components/Cronometro'
+import background from '../../assets/flores.png'
 
 function InvitePage() {
-  const navigate = useNavigate()
   const musicRef = useRef(null)
   const [showModal, setShowModal] = useState(true)
   const [mapOpen, setMapOpen] = useState(false)
@@ -39,10 +39,12 @@ function InvitePage() {
   return (
     <>
     <div className="container">
+      <img  className='img-canto top-left' src={flores}></img>
+      <img  className='img-canto bottom-right' src={flores}></img>
       {showModal && <ModalAudio setShowModal={setShowModal} musicRef={musicRef} />}
       <section>
             <img onClick={() => StopOrPlayMusic()} className='music-icon' src={musicaIcon} />
-            <img className={`flores ${showModal && "opacityModal"}`} src={flores} />
+            <img className={`flores ${showModal && "opacityModal"}`} src={background} />
             <div className='infos-casamento'>
               <h3 className='versiculo'>Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres.<br/>(Salmos 126:3)</h3>
               <img className='img-noivos' src={pvENoivaImg} />

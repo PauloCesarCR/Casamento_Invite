@@ -6,12 +6,23 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    position: relative;
+    width: 100%;
+    
 }
+
+.top-left {
+    display: none;
+   
+}    
+.bottom-right {
+    display: none;
+  
+}  
+
 .music-icon {
     width: 20px;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top:15px;
     right: 15px;
 }
@@ -80,6 +91,9 @@ section, .infos-casamento {
     gap: 8px;
     color: rgb(137, 68, 19);;
 }
+.dia {
+    margin-top: 30px;
+}
 
 .dia,.data {
     font-family: 'EB Garamond', serif;
@@ -90,7 +104,7 @@ section, .infos-casamento {
 }
 
 .data {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 .linha-horizontal {
     width: 180px;
@@ -103,7 +117,7 @@ section, .infos-casamento {
     .music-icon {
         width: 30px;
         cursor: pointer;
-        position: absolute;
+        position: fixed;
         top:35px;
         right: 35px;
     }
@@ -152,4 +166,28 @@ section, .infos-casamento {
 
         width: 10%;
     }
+
+    .dia,.data {
+        font-size: 23px;
+    }
+    .img-canto {
+        width: 330px;
+
+        position: absolute;
+    }
+
+    .top-left {
+        display: block;
+        position: fixed;
+        left: -200px;
+        transform: rotate(30deg);
+        top: -40px;
+    }    
+    .bottom-right {
+        display: block;
+        position: fixed;
+        right: -150px;
+        transform: rotate(40deg);
+        bottom: -60px;
+    }  
 }
