@@ -9,7 +9,7 @@ import cerimoniaImg from '../../assets/igreja.png'
 import confirmacaoImg from '../../assets/confirmacao.png'
 import Mapa from '../../components/Mapa'
 import { useNavigate } from 'react-router-dom'
-
+import Cronometro from '../../components/Cronometro'
 
 function InvitePage() {
   const navigate = useNavigate()
@@ -46,7 +46,11 @@ function InvitePage() {
             <div className='infos-casamento'>
               <h3 className='versiculo'>Grandes coisas fez o Senhor por nós, e, por isso, estamos alegres.<br/>(Salmos 126:3)</h3>
               <img className='img-noivos' src={pvENoivaImg} />
-              <h3 className='invite-h3'>CONVIDAM PARA CELEBRAR O SEU CASAMENTO</h3>
+              <h3 className='invite-h3'>CONVIDAM PARA CELEBRAR O SEU <br/>CASAMENTO</h3>
+              <span className='dia'>QUINTA-FEIRA ÀS 18 HORAS</span>
+              <div class="linha-horizontal"></div>
+              <span className='data'>07 DEZEMBRO DE 2023</span>
+              <Cronometro />
             </div>
 
             <div className='infos-container'>

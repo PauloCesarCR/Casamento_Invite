@@ -43,9 +43,10 @@ section, .infos-casamento {
 .invite-h3 {
     font-family: 'EB Garamond', serif;
     text-align: center;
-    color: rgb(137, 68, 19);
+    color: rgb(102, 47, 8);
     font-size: 15px;
-    margin: 10px 30px;
+    margin: 10px 30px 30px 30px;
+    font-weight: lighter;
 }
 .infos-container {
     display: flex;
@@ -79,6 +80,24 @@ section, .infos-casamento {
     gap: 8px;
     color: rgb(137, 68, 19);;
 }
+
+.dia,.data {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: rgb(102, 47, 8);
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.data {
+    margin-bottom: 15px;
+}
+.linha-horizontal {
+    width: 180px;
+    height: 1px; /* Altura da linha */
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Gradiente linear da esquerda para a direita */
+}
+
 @media screen and (min-width: 800px) {
 
     .music-icon {

@@ -1,0 +1,54 @@
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin:65px;
+
+    position: relative;
+
+}
+
+.cronometro span {
+    color:  #c26623;
+}
+.cronometro h1 {
+    color: #c26623;
+}
+.infos-cronometro {
+    display: flex;
+    gap: 15px;
+}
+.infos-cronometro div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.background {
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.7;
+}
+@media screen and (min-width: 800px) {
+    .background {
+        width:310px;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .cronometro {
+        margin:135px;
+        position: relative;
+    
+    }
+
+    .cronometro span {
+        font-size: 18px;
+    }
+    .cronometro h1 {
+        font-size: 30px;
+    }
+}
