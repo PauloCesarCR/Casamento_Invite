@@ -4,7 +4,7 @@ import music from '../../assets/music.mp3'
 import ModalAudio from '../../components/ModalAudio'
 import flores from '../../assets/flores.png'
 import pvENoivaImg from '../../assets/pvenoiva.png'
-import musicaIcon from '../../assets/musicaIcon.png'
+import musicaIcon from '../../assets/iconMusica.png'
 import cerimoniaImg from '../../assets/igreja.png'
 import confirmacaoImg from '../../assets/confirmacao.png'
 import Mapa from '../../components/Mapa'
@@ -68,7 +68,7 @@ function InvitePage() {
                   <span>Confirmação</span> 
                 </div>
               </div>
-              {mapOpen && <Mapa localLink={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.935704698311!2d-43.337612225434754!3d-22.841868135552723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9963519a8bb29f%3A0xe9da8c2a33b76399!2sEstr.%20do%20Col%C3%A9gio%2C%2065%20-%20Col%C3%A9gio%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021235-280!5e0!3m2!1spt-BR!2sbr!4v1693414644847!5m2!1spt-BR!2sbr"} />}
+              {mapOpen && <Mapa />}
             </div>
         </section>
         <audio ref={musicRef} loop={true} />

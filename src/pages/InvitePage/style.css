@@ -21,7 +21,8 @@
 }  
 
 .music-icon {
-    width: 20px;
+    width: 30px;
+    border-radius:50%;
     cursor: pointer;
     position: fixed;
     top:15px;
@@ -118,7 +119,7 @@ section, .infos-casamento {
 @media screen and (min-width: 800px) {
 
     .music-icon {
-        width: 30px;
+        width: 40px;
         cursor: pointer;
         position: fixed;
         top:35px;
