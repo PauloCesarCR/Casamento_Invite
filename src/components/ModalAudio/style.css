@@ -4,6 +4,7 @@ width:80%;
 height: 140px;
 border-radius: 30px;
 gap: 20px;
+z-index: 30;
 
 }
 

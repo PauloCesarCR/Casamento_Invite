@@ -1,11 +1,16 @@
+@font-face {
+    font-family: 'Book';
+    src: url('../../assets/Books\ Script.otf') format('OTF');
+  }
+
 .cronometro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin:65px;
-
+    margin:35px;
+    padding: 40px 18px;
     position: relative;
 
 }
@@ -15,6 +20,7 @@
 }
 .cronometro h1 {
     color: #c26623;
+    font-family: 'Book', sans-serif;
 }
 .infos-cronometro {
     display: flex;
@@ -22,17 +28,12 @@
 }
 .infos-cronometro div {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 5px;
+    margin-bottom: 10px;
 }
-.background {
-    width:250px;
-    border-radius: 50%;
-    opacity: 0.6;
-    position: absolute;
-}
+
 @media screen and (min-width: 800px) {
     .background {
         width:400px;

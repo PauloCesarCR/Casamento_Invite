@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import './style.css'
-import background from '../../assets/backgroundcr.png'
+import background from '../../assets/flores.png'
 const Cronometro = () => {
     
     const [tempoRestante, setTempoRestante] = useState({
@@ -44,7 +44,6 @@ const Cronometro = () => {
    
     return (
         <div className="cronometro">
-        <img className='background' src={background} />
              <h1>Faltam</h1>
             <div className='infos-cronometro'>
                 <div>

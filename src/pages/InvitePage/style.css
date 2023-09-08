@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url('../../assets/bege.png');
     height: 100%;
     width: 100%;
     
@@ -50,12 +51,15 @@ section, .infos-casamento {
 .img-noivos {
     width: 75%;
 }
+.modalEntrar {
+    z-index: 30;
+}
 
 .invite-h3 {
     font-family: 'EB Garamond', serif;
     text-align: center;
     color: rgb(102, 47, 8);
-    font-size: 15px;
+    font-size: 13px;
     font-weight: lighter;
 }
 .infos-container {
@@ -106,7 +110,7 @@ section, .infos-casamento {
     margin-bottom: 0px;
 }
 .linha-horizontal {
-    width: 180px;
+    width: 100px;
     height: 1px; /* Altura da linha */
     background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Gradiente linear da esquerda para a direita */
 }

@@ -41,7 +41,9 @@ function InvitePage() {
     <div className="container">
       <img  className='img-canto top-left' src={flores}></img>
       <img  className='img-canto bottom-right' src={flores}></img>
-      {showModal && <ModalAudio setShowModal={setShowModal} musicRef={musicRef} />}
+      <div className='modalEntrar'>
+         {showModal && <ModalAudio setShowModal={setShowModal} musicRef={musicRef} />}
+      </div>
       <section>
             <img onClick={() => StopOrPlayMusic()} className='music-icon' src={musicaIcon} />
             <img className={`flores ${showModal && "opacityModal"}`} src={background} />
