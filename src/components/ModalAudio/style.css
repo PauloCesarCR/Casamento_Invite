@@ -1,9 +1,9 @@
 .modal-initial {
 background:#a2774e;
-width:350px;
-height: 140px;
-border-radius: 30px;
-gap: 20px;
+width:35rem;
+height: 140rem;
+border-radius: 3rem;
+gap: 2rem;
 z-index: 30;
 
 }
@@ -29,11 +29,11 @@ z-index: 30;
   .modal-initial {
     background:#a2774e;
     width:30%;
-    height: 140px;
-    border-radius: 10px;
+    height: 14rem;
+    border-radius: 1rem;
     gap: 20px;
     
-    }
+  }
   
     
 }

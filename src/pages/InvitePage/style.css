@@ -137,17 +137,17 @@ section, .infos-casamento {
     .versiculo {
         font-family: 'Montserrat', sans-serif;
         text-align: center;
-        font-size: 21px;
+        font-size: 2rem;
         color: rgb(103, 27, 27);
         margin-bottom: 15px;
     }
     .img-noivos {
-        width:500px;
+        width:50rem;
         margin-bottom: 15px;
     }
     
     .invite-h3 {
-        font-size: 28px;
+        font-size: 2.8rem;
         margin-bottom: 15px;
     }
     .infos-container {
@@ -162,7 +162,7 @@ section, .infos-casamento {
         opacity: 0.8;
     }
     .infos-container img {
-        width: 70px;
+        width: 7rem;
         cursor: pointer;
     }
 
@@ -175,26 +175,25 @@ section, .infos-casamento {
     }
 
     .dia,.data {
-        font-size: 23px;
+        font-size: 2.3rem;
     }
     .img-canto {
-        width: 330px;
-
+        width: 33rem;
         position: absolute;
     }
 
     .top-left {
         display: block;
         position: fixed;
-        left: -200px;
+        left: -20rem;
         transform: rotate(30deg);
-        top: -40px;
+        top: -4rem;
     }    
     .bottom-right {
         display: block;
         position: fixed;
-        right: -150px;
+        right: -15rem;
         transform: rotate(40deg);
-        bottom: -60px;
+        bottom: -6rem;
     }  
 }

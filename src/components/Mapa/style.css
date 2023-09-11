@@ -10,6 +10,7 @@
 .close {
     position: absolute;
     right: -2px;
+    top: -5px;
     background-color: #d89e69;
     width: 15px;
     cursor: pointer;
@@ -23,17 +24,8 @@
     .mapa {
         margin: 0;
         border: 5px solid  #d89e69;
-        width: 700px;
-        height: 300px;
+        width: 70rem;
+        height: 30rem;
         margin-top: 15px;
-    }
-
-    .seta {
-        position: absolute;
-        left: 270px;
-        top: -17px;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-bottom: 17px solid  #d89e69
     }
 }
