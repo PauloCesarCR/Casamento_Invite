@@ -54,13 +54,12 @@ function InvitePage() {
               <span className='dia'>QUINTA-FEIRA ÀS 18 HORAS</span>
               <div class="linha-horizontal"></div>
               <span className='data'>07 DEZEMBRO DE 2023</span>
-              <Cronometro />
             </div>
 
             <div className='infos-container'>
               <div className='icons'>
                 <div className='cerimonia'>
-                  <img onClick={()=> setMapOpen(!mapOpen)} src={cerimoniaImg} />
+                  <img onClick={()=> setMapOpen(true)} src={cerimoniaImg} />
                   <span>Celebração</span>
                 </div>
                 <div className='confirmacao'>
@@ -68,7 +67,8 @@ function InvitePage() {
                   <span>Confirmação</span> 
                 </div>
               </div>
-              {mapOpen && <Mapa />}
+              <Cronometro />
+              {mapOpen && <Mapa setMapOpen={setMapOpen} />}
             </div>
         </section>
         <audio ref={musicRef} loop={true} />

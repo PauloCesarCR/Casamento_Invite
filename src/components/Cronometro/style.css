@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin:35px;
     padding: 40px 18px;
     position: relative;
 
@@ -41,7 +40,6 @@
         position: absolute;
     }
     .cronometro {
-        margin:135px;
         position: relative;
     
     }
