@@ -46,7 +46,7 @@ section, .infos-casamento {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1.5rem;
-    margin: 0px 30px;
+    margin: 15px 30px 15px 30px;
     color: rgb(103, 27, 27);
 }
 .img-noivos {
@@ -62,6 +62,7 @@ section, .infos-casamento {
     color: rgb(102, 47, 8);
     font-size: 1.5rem;
     font-weight: lighter;
+    margin-top: 20px;
 }
 .infos-container {
     display: flex;

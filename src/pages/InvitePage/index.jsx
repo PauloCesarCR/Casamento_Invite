@@ -16,7 +16,6 @@ function InvitePage() {
   const musicRef = useRef(null)
   const [showModal, setShowModal] = useState(true)
   const [mapOpen, setMapOpen] = useState(false)
-  const [confirmOpen, setConfirmOpen] = useState(false)
 
   function StopOrPlayMusic(){
     if(!musicRef.current.src){
