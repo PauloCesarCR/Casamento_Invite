@@ -11,6 +11,8 @@ import Mapa from '../../components/Mapa'
 import { useNavigate } from 'react-router-dom'
 import Cronometro from '../../components/Cronometro'
 import background from '../../assets/flores.png'
+import separator from '../../assets/separador.png'
+import aliancas from '../../assets/argolas.png'
 
 function InvitePage() {
   const musicRef = useRef(null)
@@ -58,17 +60,23 @@ function InvitePage() {
             <div className='infos-container'>
               <div className='icons'>
                 <div className='cerimonia'>
-                  <img onClick={()=> setMapOpen(true)} src={cerimoniaImg} />
+                  <div className='cont-img'>
+                    <img className='alianca' onClick={()=> setMapOpen(true)} src={aliancas} />
+                  </div>
                   <span>Celebração</span>
                 </div>
                 <div className='confirmacao'>
-                  <img onClick={()=>  enviarMsgWhatsapp()} src={confirmacaoImg} /> 
+                  <div className='cont-img'>
+                     <img className='whats' onClick={()=>  enviarMsgWhatsapp()} src={confirmacaoImg} /> 
+                  </div>
                   <span>Confirmação</span> 
                 </div>
               </div>
-              <Cronometro />
-              {mapOpen && <Mapa setMapOpen={setMapOpen} />}
             </div>
+
+            <img className='separator' src={separator} />
+            <Cronometro />
+            {mapOpen && <Mapa setMapOpen={setMapOpen} />}
         </section>
         <audio ref={musicRef} loop={true} />
       </div>

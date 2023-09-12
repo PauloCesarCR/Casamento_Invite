@@ -12,12 +12,16 @@
     padding: 40px 18px;
     position: relative;
 
+    width: 80%;
+
 }
 
 .cronometro span {
     color:  #c26623;
+    font-size: 2rem;
 }
 .cronometro h1 {
+    font-size: clamp(1rem, 3rem, 4rem);
     color: #c26623;
     font-family: 'Book', sans-serif;
 }
@@ -32,6 +36,7 @@
     padding: 5px;
     margin-bottom: 10px;
 }
+
 
 @media screen and (min-width: 800px) {
     .background {

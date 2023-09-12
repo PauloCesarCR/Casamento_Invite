@@ -29,6 +29,25 @@
     right: 15px;
 }
 
+.cont-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d89e69;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img .alianca {
+    width: 60%;
+}
+
+.cont-img .whats {
+    width: 65%;
+}
+
 section, .infos-casamento {
     display: flex;
     flex-direction: column;
@@ -45,7 +64,7 @@ section, .infos-casamento {
 .versiculo {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);    
     margin: 15px 30px 15px 30px;
     color: rgb(103, 27, 27);
 }
@@ -58,21 +77,21 @@ section, .infos-casamento {
 
 .invite-h3 {
     font-family: 'EB Garamond', serif;
+    font-size: clamp(1.3rem, 3.5vw, 2rem);    
     text-align: center;
     color: rgb(102, 47, 8);
-    font-size: 1.5rem;
     font-weight: lighter;
     margin-top: 20px;
 }
 .infos-container {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
     gap: 3.5rem;
 
     font-family: 'EB Garamond', serif;
     font-weight: 700;
-    font-size: 1.5rem;
 }
 .icons {
     display: flex;
@@ -82,13 +101,17 @@ section, .infos-casamento {
 .icons img:hover {
     opacity: 0.8;
 }
-.infos-container img {
+.icons img {
     width: 70px;
     cursor: pointer;
 }
 
 .opacityModal {
     opacity: 0.7;
+}
+.separator {
+    width: 50%;
+    color: green;
 }
 
 .cerimonia,.confirmacao {
@@ -98,6 +121,7 @@ section, .infos-casamento {
     align-items: center;
     gap: 8px;
     color: rgb(137, 68, 19);;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);    
 }
 .dia {
     margin-top: 30px;
@@ -107,7 +131,7 @@ section, .infos-casamento {
     font-family: 'EB Garamond', serif;
     text-align: center;
     color: rgb(102, 47, 8);
-    font-size: 1.5rem;
+    font-size: clamp(1.3rem, 3.5vw, 2rem);    
     font-weight: lighter;
 }
 
@@ -197,4 +221,10 @@ section, .infos-casamento {
         transform: rotate(40deg);
         bottom: -6rem;
     }  
+
+    .separator {
+        width: 20%;
+        color: green;
+    }
+
 }
